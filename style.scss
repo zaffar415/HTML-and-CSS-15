@@ -1,0 +1,105 @@
+$body-bg: #121212;
+$body-color: #ffffff;
+$blue:    #0d6efd !default;
+$indigo:  #056fec !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+$grey:     #242424;
+$primary :  #d40424;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary" : #777777,
+  "white":      #f5f5f5,
+  "success":    $green,
+  "info":       $cyan,
+  "warning":    $orange,
+  "yellow":     $yellow,
+  "danger":     $red,
+  "light":      #f5f5f5,
+  "dark":       #10181D,
+  "black":      #000,
+  "teal":       $teal,
+  "grey" :      $grey,
+);
+
+// Bootstrap and its default variables
+@import "./assets/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto';
+}
+
+.navbar-nav li a {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+section {
+    position:relative;
+}
+
+section.cards-counter::before {
+    content: '';
+    width:50%;
+    height:100%;
+    position: absolute;
+    display:block;
+    left:0;
+    background:#191919;
+    z-index: -5;
+}
+
+
+.btn {
+    border-radius: 0px;
+}
+
+.font-bold {
+    font-weight: 900;
+}
+
+.display-4.heading {
+    line-height:70px;
+}
+
+.h1.heading {
+    line-height:50px;
+}
+
+.feature-btn .btn {
+    float:right;
+    @media screen and (max-width:767px) {
+        float:none;
+    }
+}
+
+.wrap {
+    padding-top:80px;
+    padding-bottom:80px;
+}
+
+.h-80 {
+    height:80%;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding:0;
+    margin:20px 0px;
+    line-height:40px; 
+    color:#d7d7d7;
+    text-transform: uppercase;
+}
+
+.social-icons i {
+    font-size: 28px;
+    margin-right:50px
+}

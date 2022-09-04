@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Roboto',sans-serif;
+
+    background-color: var(--black);
+ 
+}
+:root{
+    font-size: 62.5%;
+
+    --primary:#c91b28;
+    --white:#fff;
+    --black:#111111;
+    --grey:#1e1e1e;
+
+
+
+
+
+
+
+}
+
+.container{
+   
+}
+
+
+
+
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2rem 0;
+    font-size: 1.5rem;
+   padding: 1 10rem;
+  
+
+
+}
+.logo{
+    margin-right: 20rem;
+    width: 30%;
+}
+
+.list-items{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    list-style: none;
+    gap: 6rem;
+}
+
+.list-items a{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 400;
+
+
+}
+
+.list-items a:hover{
+    color: var(--primary);
+   text-decoration: underline;
+
+
+}
+
+
+
+/* hero-section */
+
+
+
+.hero-section{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.left-hero-section{
+   width: 40%;
+}
+
+.left-hero-section img{
+ 
+ width: 100%;
+}
+
+.right-hero-section{
+ color: var(--white);
+ display:flex;
+ justify-content:center;
+ align-items: baseline;
+ gap: 1.5rem;
+ flex-direction: column;
+ 
+
+}
+
+.right-hero-section h2{
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 2rem;
+    word-spacing: 1px;
+}
+
+.right-hero-section h1{
+    font-size: 9rem;
+    font-weight: 700;
+
+   
+}
+
+
+
+.right-hero-section p{
+   font-size:2rem;
+   width: 50rem;
+   line-height: 1.5;
+
+   
+}
+
+.btn{
+    padding: 1.5rem 4rem;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    font-size: 2rem;
+    font-weight: 400;
+
+
+}
+
+
+
+/* -----------------------------shadow-section------- */
+
+.shadow{
+  background-color: #181818;
+  width: 50vw;
+  height: 130vh;
+  z-index: -1;
+  position: absolute;
+
+}
+
+
+
+/* ---------------service-section----------- */
+
+
+.serives-section{
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   flex-direction: column;
+  
+    
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 3rem;
+    
+   
+}
+
+.card img{
+    width: 30%;
+}
+
+.card {
+    width: 40rem;
+    height: 40rem;
+    background-color: #1e1e1e;
+    padding: 3rem;
+    display:flex;
+    justify-content:baseline;
+    align-items: right;
+    flex-direction: column;
+    font-size: 2rem;
+    gap: 2rem;
+    color: #fff;
+}
+
+.card p{
+    font-size: 2.5rem;
+ 
+}
+
+
+.active-card{
+    background-color: var(--primary);
+
+    
+}
+
+
+
+.active-link{
+    color: var(--white);
+    display:flex;
+
+    align-items: center;
+    gap: .3rem;
+    
+}
+
+.link {
+    color: var(--primary);
+    display:flex;
+   
+    align-items: center;
+    gap: .3rem;
+     
+}
+
+/* ---------------------------- work */
+
+.work{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10rem;
+ 
+    width: 90vw;
+    margin-top: 8rem;
+
+    
+
+}
+
+.work-box{
+    /* background-color: var(--grey); */
+   
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: var(--primary);
+    flex-direction: column;
+    
+}
+
+.work-box h2{
+    font-size: 12rem;
+    font-weight: 900;
+}
+.work-box h3{
+    color: var(--white);
+    font-size: 2.3rem;
+}
+
+.divide-two{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+   
+    gap: 4rem;
+    padding: 2rem;
+   
+   
+
+}
+
+.box{
+    background-color: var(--grey);
+width: 30rem;
+height: 15rem;
+  
+display:flex;
+justify-content:center;
+align-items: center;
+flex-direction: column;
+  
+
+}
+
+.box h2{
+    font-size: 5rem;
+    color: var(--primary);
+    font-weight: 900;
+}
+
+.box p{
+    color: var(--white);
+    font-size: 2rem;
+}
+
+/* ---------------------------project-feature */
+
+.project-feature{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    
+}
+
+.project-feature-header{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+  color: var(--white);
+  margin:4rem 0;
+  width: 90vw;
+
+
+  
+
+ 
+
+}
+.feature-heading button{
+    
+}
+
+
+.feature-heading h2{
+  font-size: 4rem;
+}
+.feature-heading p{
+    font-size: 2rem;
+
+}
+
+.projects{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 4rem;
+margin-left: 27rem;
+
+}
+
+
+.project-card{
+    width: 40%;
+    display:flex;
+    justify-content:center;
+    align-items: baseline;
+    flex-direction: column;
+    gap: .5rem;
+
+   
+}
+
+.project-card a{
+    color: var(--primary);
+    font-size: 2rem;
+    font-weight: 700;
+
+
+}
+
+.project-card h2{
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.project-card img{
+    width: 100%;
+  padding: 4rem;
+background-color: var(--grey);
+  
+
+    
+}
+
+#project-card-fix{
+    padding: 4.2rem 1rem;
+}
+
+
+/* contact */
+
+.contact{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: var(--grey);
+    width: 70vw;
+    height: 40rem;
+    color: var(--white);
+    margin-top: 10rem;
+    margin-left: 18%;
+    padding: 2rem;
+    
+
+
+    
+}
+
+.contact h2{
+    font-size: 5rem;
+    margin-bottom: 1.4rem;
+}
+.contact p{
+    font-size: 2rem;
+    width: 70%;
+    line-height: 1.4;
+   
+   
+}
+
+
+.bottom-navbar{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+
+
+footer{
+    margin-top: 5rem;
+    background-color: var(--grey);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.social-media{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    gap: 4rem;
+    color: var(--white);
+}
+
+.s-icon{
+    font-size: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
